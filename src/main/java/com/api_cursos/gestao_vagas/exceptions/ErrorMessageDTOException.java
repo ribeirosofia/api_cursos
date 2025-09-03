@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class ExceptionErrorMessageDTO extends RuntimeException {
+public class ErrorMessageDTOException extends RuntimeException {
     private String message;
     private String field;
 }
