@@ -1,8 +1,8 @@
-package com.api_cursos.gestao_vagas.modules.company.useCases;
+package com.api_vagas.gestao_vagas.modules.company.useCases;
 
-import com.api_cursos.gestao_vagas.exceptions.UserFoundException;
-import com.api_cursos.gestao_vagas.modules.company.entities.CompanyEntity;
-import com.api_cursos.gestao_vagas.modules.company.repositories.CompanyRepository;
+import com.api_vagas.gestao_vagas.exceptions.UserFoundException;
+import com.api_vagas.gestao_vagas.modules.company.entities.CompanyEntity;
+import com.api_vagas.gestao_vagas.modules.company.repositories.CompanyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

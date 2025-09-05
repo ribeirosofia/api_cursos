@@ -1,4 +1,4 @@
-package com.api_cursos.gestao_vagas.modules.company.entities;
+package com.api_vagas.gestao_vagas.modules.company.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

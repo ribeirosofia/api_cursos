@@ -1,8 +1,7 @@
-package com.api_cursos.gestao_vagas.modules.company.controllers;
+package com.api_vagas.gestao_vagas.modules.candidate.controllers;
 
-
-import com.api_cursos.gestao_vagas.modules.company.entities.CompanyEntity;
-import com.api_cursos.gestao_vagas.modules.company.useCases.CreateCompanyUseCase;
+import com.api_vagas.gestao_vagas.modules.candidate.CandidateEntity;
+import com.api_vagas.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,21 +11,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/company")
-public class CompanyController {
+@RequestMapping("/candidate")
+public class CandidateController {
 
     @Autowired
-    private CreateCompanyUseCase createCompanyUseCase;
+    private CreateCandidateUseCase createCandidateUseCase;
 
     @PostMapping("/")
-    public ResponseEntity<Object> create(@Valid @RequestBody CompanyEntity companyEntity){
+    public ResponseEntity<Object> create(@Valid @RequestBody CandidateEntity candidateEntity){
         try {
-            var result = this.createCompanyUseCase.execute(companyEntity);
+            var result = this.createCandidateUseCase.execute(candidateEntity);
             return ResponseEntity.ok().body(result);
         } catch (Exception exception) {
-            exception.printStackTrace();
             return ResponseEntity.badRequest().body(exception.getMessage());
         }
     }
-
 }

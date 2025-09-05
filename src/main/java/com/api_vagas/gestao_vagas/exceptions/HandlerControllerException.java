@@ -1,4 +1,4 @@
-package com.api_cursos.gestao_vagas.exceptions;
+package com.api_vagas.gestao_vagas.exceptions;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;

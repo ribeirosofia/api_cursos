@@ -1,6 +1,6 @@
-package com.api_cursos.gestao_vagas.modules.company.repositories;
+package com.api_vagas.gestao_vagas.modules.company.repositories;
 
-import com.api_cursos.gestao_vagas.modules.company.entities.CompanyEntity;
+import com.api_vagas.gestao_vagas.modules.company.entities.CompanyEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

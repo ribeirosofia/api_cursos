@@ -1,4 +1,4 @@
-package com.api_cursos.gestao_vagas.modules.candidate;
+package com.api_vagas.gestao_vagas.modules.candidate;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

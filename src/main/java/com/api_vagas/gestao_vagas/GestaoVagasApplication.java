@@ -1,4 +1,4 @@
-package com.api_cursos.gestao_vagas;
+package com.api_vagas.gestao_vagas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

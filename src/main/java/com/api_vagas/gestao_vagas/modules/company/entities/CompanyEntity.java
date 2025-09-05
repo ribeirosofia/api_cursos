@@ -1,4 +1,4 @@
-package com.api_cursos.gestao_vagas.modules.company.entities;
+package com.api_vagas.gestao_vagas.modules.company.entities;
 
 import java.util.UUID;
 import jakarta.persistence.Entity;

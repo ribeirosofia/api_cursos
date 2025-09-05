@@ -1,6 +1,6 @@
-package com.api_cursos.gestao_vagas.modules.candidate.repository;
+package com.api_vagas.gestao_vagas.modules.candidate.repository;
 
-import com.api_cursos.gestao_vagas.modules.candidate.CandidateEntity;
+import com.api_vagas.gestao_vagas.modules.candidate.CandidateEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 
