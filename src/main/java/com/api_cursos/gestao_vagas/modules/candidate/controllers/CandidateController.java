@@ -1,8 +1,6 @@
 package com.api_cursos.gestao_vagas.modules.candidate.controllers;
 
-import com.api_cursos.gestao_vagas.exceptions.UserFoundException;
 import com.api_cursos.gestao_vagas.modules.candidate.CandidateEntity;
-import com.api_cursos.gestao_vagas.modules.candidate.repository.CandidateRepository;
 import com.api_cursos.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
